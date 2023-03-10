@@ -11,12 +11,13 @@
             a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
 
-            for (int i = a -1 ; i >= 0; i--)
+            for (int i = a - 1; i > 0; i--)
             {
                 a = a * i;
+
             }
 
-            Console.Write(a);
+            Console.WriteLine(a);
 
             Console.ReadLine();
         }
