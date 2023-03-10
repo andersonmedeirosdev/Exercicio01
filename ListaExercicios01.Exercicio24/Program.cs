@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            //Ver todos os números impares de 0 a 100
+            //Ver todos os números impares de 0 a 500
 
             Console.WriteLine("Aperte enter para saber a soma dos números impares de 0 a 500: \n");
 
