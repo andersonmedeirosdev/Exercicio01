@@ -6,17 +6,17 @@
         {
             //Ver todos os números impares de 0 a 500
 
-            Console.WriteLine("Aperte enter para saber a soma dos números impares de 0 a 500: \n");
+            Console.WriteLine("Aperte enter para saber a soma dos números impares de 0 a 500 que são multiplos de 3: \n");
 
             int soma = 0;
-            for (int i = 1; i <= 500; i += 2)
+            for (int i = 3; i <= 500; i += 3)
             {
-                soma += i;
+                soma+= i;
             }
 
             Console.ReadLine();
 
-            Console.WriteLine("A soma dos números impares de 0 a 500 é: " + soma);
+            Console.WriteLine("A soma dos números impares de 0 a 500 que são multiplos de 3: " + soma);
 
         }
     }
