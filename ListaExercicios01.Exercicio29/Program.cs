@@ -6,13 +6,20 @@ namespace ListaExercicios01.Exercicio29
     {
         static void Main(string[] args)
         {
-        //Programa para exibiar taboada do 1 até o 10.
+            //Programa para exibir taboada do 1 até o 10.
+
+            Console.WriteLine("Aperte enter para ter acesso as tabuadas:");
+            Console.ReadLine();
 
             for (int i = 1; i <= 10; i++)
             {
-                int multi = i * i;
+                for (int i2 = 1; i2 <= 10; i2++)
+                {
+                    int multi = i * i2;
+                    Console.WriteLine(i + " X " + i2 + " = " + multi);
+                    Console.WriteLine();
 
-                Console.WriteLine(multi);
+                }
             }
         }
     }
