@@ -6,7 +6,11 @@
         {
             //Fibonacci
 
-            int primeiron = 0, segundon = 1, qtd = 20;
+            int primeiron = 0, segundon = 1, qtd;
+
+            Console.WriteLine("Coloque a quantidade de números que você quer imprimir:");
+            qtd = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
 
             Console.Write(primeiron + ", " + segundon + ", ");
 
