@@ -23,7 +23,6 @@
                 Console.WriteLine("A kilometragem final deve ser maior que a inicial, por favor, tente novamente");
                 continue;
 
-
             } while (kminicial > kmfinal);
 
             kmtotal = kmfinal - kminicial;
